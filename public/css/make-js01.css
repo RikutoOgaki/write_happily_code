@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+}
+header .base {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .base li {
+  text-align: center;
+  list-style: none;
+  width: 30%;
+  margin: 20px auto;
+}
+header .base li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+  display: inline-block;
+  position: relative;
+}
+header .base li a::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #333;
+  transform: scale(0, 1);
+  transform-origin: center top;
+  transition: transform 0.3s;
+}
+header .base li a:hover::after {
+  transform: scale(1, 1);
+}
