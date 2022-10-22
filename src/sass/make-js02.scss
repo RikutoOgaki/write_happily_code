@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 100vw;
+    height: 300vh;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    .wrap{
+        width: 1000px;
+        height: 600px;
+        border: 1px solid blue;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        gap: 150px;
+        .con{
+            width: 800px;
+            height: 60px;
+            color: #fff;
+            text-align: center;
+            &:nth-child(odd){
+                margin-right: auto;
+                background-color: blue;
+                transform: translateX(-1100px);
+            }
+            &:nth-child(even){
+                margin-left: auto;
+                background-color: blue;
+                transform: translateX(1100px);
+            }
+        }
+        .npm{
+            animation: scr 1s ease .5s forwards;
+            @keyframes scr {
+                100%{
+                    transform: translateX(0px);
+                }
+            }
+        }
+    }
+}
