@@ -13,6 +13,9 @@ btn.forEach((e,i)=>{
         text.value = e.value;
         text.style.color = "white";
         console.log(evt.target);
+        if(e.value == "c"){
+            text.value = "";
+        }
     })
     e.addEventListener('mousedown', ()=>{
         e.style.backgroundColor = "white";
