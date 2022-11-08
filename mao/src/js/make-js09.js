@@ -19,7 +19,7 @@ btn.forEach((e,i)=>{
         else if(e.value == "c"){
             text.value = "";
         }
-        evt.target += e.value;
+        text.value += e.value;
     })
     e.addEventListener('mousedown', ()=>{
         e.style.backgroundColor = "white";
