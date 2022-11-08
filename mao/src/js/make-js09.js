@@ -13,8 +13,19 @@ btn.forEach((e,i)=>{
         text.value = e.value;
         text.style.color = "white";
         console.log(evt.target);
-        if(e.value == "c"){
+        if(e.value == "="){
+            text.value = eval(text.value);
+        }
+        else if(e.value == "c"){
             text.value = "";
+        }
+        else{
+            if(e.value == "✕"){
+                e.value = "*";
+            }
+            else if(e.value == "÷"){
+                e.value = "/";
+            }
         }
     })
     e.addEventListener('mousedown', ()=>{
