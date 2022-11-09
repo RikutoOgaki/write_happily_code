@@ -1,0 +1,13 @@
+#slideconte, #slideconte .item03, #slideconte .item02, #slideconte .item01 {
+  width: 100vw;
+  height: 100vh;
+}
+#slideconte .item01 {
+  background: url(https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-2/img/img_01.jpg);
+}
+#slideconte .item02 {
+  background: url(https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-2/img/img_02.jpg);
+}
+#slideconte .item03 {
+  background: url(https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-2/img/img_03.jpg);
+}
