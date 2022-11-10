@@ -14,7 +14,7 @@ btn.forEach((e,i)=>{
         text.style.color = "white";
         console.log(evt.target);
         if(e.value == "="){
-            text.value = eval(text.value);
+            
         }
         else if(e.value == "c"){
             text.value = "";
