@@ -21,8 +21,3 @@ link.forEach((e)=>{
         en.classList.remove("maru");
     })
 })
-
-// if (!hovFlag) {
-//     stalker.style.transform = 'translate(' + e.clientX + 'px, ' + e.clientY + 'px)';
-//     }
-

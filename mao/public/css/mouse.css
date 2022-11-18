@@ -12,7 +12,8 @@
   height: 25px;
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.5);
-  transition: 0.5s ease-out;
+  transition: tramsorm 0.2s, 0.5s ease-out;
+  transition-timing-function: ease-out;
   z-index: 999;
 }
 #en.maru {

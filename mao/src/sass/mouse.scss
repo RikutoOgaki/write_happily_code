@@ -12,10 +12,9 @@
     border-radius: 50%;
     background-color: rgba(0, 0, 0, 50%);
     // position: absolute;
-    // transition: transform 0.2s,top, 0.5s,left .5s,width .5s,height .5s,backgroundcolor .5s ;
-    transition: 0.5s ease-out;
-    
-    // transition-timing-function: ease-out;
+    // transition: transform 0.2s,top, 0.5s,left .5s,width .5s,height .5s,backgroundcolor .5s ;    
+    transition: tramsorm .2s, .5s ease-out;
+    transition-timing-function: ease-out;
     z-index: 999;
     &.maru{
         width: 50px;
