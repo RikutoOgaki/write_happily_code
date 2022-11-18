@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#en {
+  pointer-events: none;
+  position: fixed;
+  top: -12.5px;
+  left: -12.5px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease-out;
+  z-index: 999;
+}
+#en.maru {
+  width: 50px;
+  height: 50px;
+  top: -25px;
+  left: -25px;
+  background-color: tomato;
+  transition: 0.5s;
+}
+
+.maru {
+  background-color: rgb(110, 210, 220);
+}
+
+a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  width: 300px;
+  height: 60px;
+  display: block;
+  text-align: center;
+  line-height: 4;
+  background-color: aqua;
+}
