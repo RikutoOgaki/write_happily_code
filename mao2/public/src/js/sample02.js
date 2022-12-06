@@ -26,3 +26,13 @@
    });
    console.log(result);
 }
+{
+    // filterの処理
+    // functionで関数を指定
+    function inEven (num){
+        // ↓numを２で割って、割り切れる数を返す
+        return num % 2===0;
+    }
+    const number = [1,5,10,15,20,30];
+    console.log(number.filter(inEven)); 
+}
