@@ -26,6 +26,7 @@
    });
    console.log(result);
 }
+
 {
     // filterの処理
     // functionで関数を指定
