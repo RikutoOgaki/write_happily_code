@@ -1,0 +1,18 @@
+.box {
+  text-align: center;
+}
+.box #btn_text {
+  font-size: 150px;
+}
+.box #strat_btn {
+  width: 100px;
+  height: 40px;
+  background-color: tomato;
+  color: #fff;
+}
+.box #stop_btn {
+  width: 100px;
+  height: 40px;
+  background-color: skyblue;
+  color: #fff;
+}
